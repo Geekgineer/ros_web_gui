@@ -1,6 +1,6 @@
 # Web GUI for Controlling and Monitoring ROS framework
 
-Based on [robotwebtools](http://robotwebtools.org/tools.html) this package enable a full control over your Robot you can teleoprate ,use the Navigation Stack ROS parameter server and sending-ressiving data is supported with GUI 
+Based on [robotwebtools](http://robotwebtools.org/tools.html) this package enable a full control over your Robot you can teleoprate ,use the Navigation Stack, ROS parameter server and sending-receiving data is supported with GUI 
 
 ## Getting Started
 ### Prerequisites
@@ -12,7 +12,7 @@ Based on [robotwebtools](http://robotwebtools.org/tools.html) this package enabl
 ##### 1- Clone the robot_web_gui package to your ROS workspace:
      
 	$ cd ~/catkin_ws/src
-	$ git clone https://github.com/dynm_nav/robot_web_gui
+	$ git clone https://github.com/Geekgineer/ros-web-gui
 	$ cd .. && catkin_make
 
 ##### 2- We will also need a number of JavaScript packages 
@@ -54,7 +54,7 @@ Since not everyone runs a web server like Apache on their machine or robot's com
 ##### 6- Test our Web Server (mini-httpd)
 Included in the robot_web_gui/scripts directory is a simple shell script called mini-httpd.sh that will launch the webserver on port 8181 and set the document directory to the robot_web_gui directory. Run the script now as follows:
 	
-	$ rosrun rbx2_gui mini-httpd.sh
+	$ rosrun ros_web_gui mini-httpd.sh
 
 
 You will likely see the message:
