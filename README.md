@@ -32,7 +32,7 @@ run the following commands:
 	$ sudo apt-get install ros-kinetic-rosbridge-suite \ros-kinetic-robot-pose-publisher ros-kinetic-tf2-web-republisher ros-kinetic-web-video-server
 	$ rospack profile
 
-#####4- We will use the web_video_server package to stream live video from ROS topicsover HTTP to our browser GUI.
+##### 4- We will use the web_video_server package to stream live video from ROS topicsover HTTP to our browser GUI.
 Install it with the following command:
 
 	$ sudo apt-get update && sudo apt-get upgrade 
