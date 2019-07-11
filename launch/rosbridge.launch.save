@@ -1,13 +1,10 @@
-
 <launch>
 
   <rosparam ns="/robot_gui">
      maxLinearSpeed: 0.5
-     maxAngularSpeed: 2.0
-     videoTopic: /betabot/camera/image_raw
+/camera/depth/image_raw     maxAngularSpeed: 2.0
+     videoTopic: /camera/depth/image_raw
   </rosparam>
-
-  <arg name="max_message_size" value="Inf" />
 
   <node name="mini_httpd" pkg="robot_web_gui" type="mini-httpd.sh" output="screen" />
 

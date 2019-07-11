@@ -61,7 +61,7 @@ var ros;
 // Configurable options
 var options = {
     // Speed parameters
-    cmdVelTopic: '/cmd_vel_mux/input/teleop',
+    cmdVelTopic: '/betabot/cmd_vel',
     defaultLinearSpeed: 0.18,
     defaultAngularSpeed: 1.2,
     maxLinearSpeed: 0.18,
@@ -82,7 +82,7 @@ var options = {
     //robotBatteryTopic: '/arduino/sensor/main_voltage',
 
     // Video parameters
-    videoTopic: '/camera/rgb/image_raw',
+    videoTopic: '/betabot/camera/image_raw',
     videoQuality: 50,
     fovWidthRadians: 0.99, // Asus 57 degrees
     fovHeightRadians: 0.78 // Asus 45 degrees

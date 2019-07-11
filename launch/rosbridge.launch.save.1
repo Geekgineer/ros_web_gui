@@ -7,6 +7,8 @@
      videoTopic: /betabot/camera/image_raw
   </rosparam>
 
+  <arg name="use_compression" default="true" />
+
   <arg name="max_message_size" value="Inf" />
 
   <node name="mini_httpd" pkg="robot_web_gui" type="mini-httpd.sh" output="screen" />

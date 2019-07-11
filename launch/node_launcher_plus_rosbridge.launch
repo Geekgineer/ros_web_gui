@@ -3,7 +3,7 @@
   <rosparam ns="/robot_gui">
      maxLinearSpeed: 0.2
      maxAngularSpeed: 1.5
-     videoTopic: /camera/rgb/image_color
+     videoTopic: /betabot/camera/image_raw
   </rosparam>
 
   <node name="mini_httpd" pkg="robot_web_gui" type="mini-httpd.sh" output="screen" />
